@@ -17,6 +17,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginHorizontal="30dp"
         android:text="안녕하세요. Welcome ! "
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:gravity="center"/>
 
@@ -36,11 +37,15 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="아이디"
+            android:textColor="@color/bage"
             android:background="@drawable/round"
             android:padding="5dp">
         </TextView>
 
         <EditText
+            android:textColorHint="@color/bage"
+            android:textColor="@color/bage"
+            android:id="@+id/idEdit"
             android:layout_marginLeft="20dp"
             android:padding="5dp"
             android:layout_width="200dp"
@@ -61,6 +66,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:textColor="@color/bage"
             android:layout_marginLeft="30dp"
             android:padding="5dp"
             android:gravity="center_horizontal"
@@ -71,19 +77,22 @@
         </TextView>
 
         <EditText
+            android:textColor="@color/bage"
+            android:id="@+id/passwordEdit"
             android:inputType="textPassword"
             android:layout_marginLeft="20dp"
             android:padding="5dp"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:background="@drawable/round"
-            android:hint="비밀번호를 입력하세요."/>
+            android:hint="비밀번호를 입력하세요."
+            android:textColorHint="@color/bage"/>
 
     </LinearLayout>
 
 
     <Button
-        android:id="@+id/login_btn"
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/pw_layout"
@@ -94,10 +103,10 @@
         android:text="로그인"/>
 
     <Button
-        android:id="@+id/member_btn"
+        android:id="@+id/memberBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/login_btn"
+        app:layout_constraintTop_toBottomOf="@id/loginBtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="5dp"
