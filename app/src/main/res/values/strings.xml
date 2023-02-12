@@ -9,4 +9,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="nav_category">카테고리</string>
+    <string name="label_cart_icon" />
+    <string name="nav_home">홈</string>
+    <string name="nav_cart">카트</string>
 </resources>
