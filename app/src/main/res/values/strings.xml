@@ -13,4 +13,5 @@
     <string name="label_cart_icon" />
     <string name="nav_home">홈</string>
     <string name="nav_cart">카트</string>
+    <string name="welcomeMessage">안녕하세요!\n서비스 이용을 위해서\n회원가입이 필요합니다.</string>
 </resources>

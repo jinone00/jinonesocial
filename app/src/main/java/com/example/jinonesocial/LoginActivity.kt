@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.example.jinonesocial.databinding.ActivityLoginBinding
+import com.example.jinonesocial.signin.SignInActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
@@ -32,6 +33,11 @@ class LoginActivity : AppCompatActivity() {
             var passwordText = binding.passwordEdit.text
 
             createAccount(idText.toString(), passwordText.toString())
+        }
+
+        binding.memberBtn2.setOnClickListener {
+            startActivity(Intent(this,SignInActivity::class.java))
+            finish()
         }
 
         binding.loginBtn.setOnClickListener {
