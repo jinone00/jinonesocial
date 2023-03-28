@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "569326258387",
+    "firebase_url": "https://jinwonsocial-default-rtdb.firebaseio.com",
+    "project_id": "jinwonsocial",
+    "storage_bucket": "jinwonsocial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569326258387:android:e14bd538632b118b2fac26",
+        "android_client_info": {
+          "package_name": "com.example.jinonesocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569326258387-jim8omutf81fotj8ou87pru5m0jqrok4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jinonesocial",
+            "certificate_hash": "9a6ce2e89afd94d057eb7c28ac46cf58004ec8aa"
+          }
+        },
+        {
+          "client_id": "569326258387-iamrd0qghj3dh2gupa6gtii0skv054qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Y3-iKo5YpDNh9lnK7XIgi85HAoAlzlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569326258387-e3km7ctm6miptofbop4qrk6hb5at00p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
